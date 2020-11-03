@@ -1,5 +1,5 @@
 # flask_application
-The repository contains the code files for the application and api built with using Python and Flask RESTful. We create an SQLite3 database where we're able to create tables. We create the 'users' table where we store the username and password after a user registers in the API and the data of this table are used to authenticate users logging in (it provides a unique JW token). The 'items' table stores items (for instance, this can be items sold in a retail shop along with the prices) and the user of the API can receive and upload data via GET and POST requests.
+The repository contains the code files for the application and api built with using Python and Flask RESTful. We create an SQL (SQLite3) database where we're able to create tables. We create the 'users' table where we store the username and password after a user registers in the API and the data of this table are used to authenticate users logging in (it provides a unique JW token). The 'items' table stores items (for instance, this can be items sold in a retail shop along with the prices) and the user of the API can receive and upload data via GET and POST requests.
 
 The 'create_tables.py' file must be run first because it creates the database data.db and the tables 'users' and 'items'. 
 
